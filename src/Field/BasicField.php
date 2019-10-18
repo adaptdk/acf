@@ -3,12 +3,12 @@
     namespace Adapt\Acf\Field;
 
     use App\Model\Post;
-    use App\Model;
     use App\Model\Meta\PostMeta;
     use App\Model\Term;
     use App\Model\Meta\TermMeta;
     use App\Model\User;
     use App\Model\Meta\UserMeta;
+    use Illuminate\Database\Eloquent\Model;
 
     /**
      * Class BasicField.
