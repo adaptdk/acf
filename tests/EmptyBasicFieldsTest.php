@@ -1,7 +1,7 @@
 <?php
 
-use Corcel\Acf\Field\Text;
-use Corcel\Acf\Field\BasicField;
+use Adapt\Acf\Field\Text;
+use Adapt\Acf\Field\BasicField;
 use Corcel\Model\Post;
 
 /**

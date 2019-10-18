@@ -1,9 +1,9 @@
 <?php
 
-namespace Corcel\Acf\Field;
+namespace Adapt\Acf\Field;
 
-use Corcel\Acf\FieldInterface;
-use Corcel\Model\Post;
+use Adapt\Acf\FieldInterface;
+use App\Model\Post;
 use Illuminate\Support\Collection;
 
 /**

@@ -1,7 +1,7 @@
 <?php
 
-use Corcel\Acf\Field\Boolean;
-use Corcel\Acf\Field\Text;
+use Adapt\Acf\Field\Boolean;
+use Adapt\Acf\Field\Text;
 use Corcel\Model\Post;
 
 /**

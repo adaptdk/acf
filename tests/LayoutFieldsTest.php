@@ -1,7 +1,7 @@
 <?php
 
-use Corcel\Acf\Field\Repeater;
-use Corcel\Acf\Field\FlexibleContent;
+use Adapt\Acf\Field\Repeater;
+use Adapt\Acf\Field\FlexibleContent;
 use Corcel\Model\Post;
 
 /**

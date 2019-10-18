@@ -1,9 +1,9 @@
 <?php
 
-use Corcel\Acf\Field\File;
-use Corcel\Acf\Field\Gallery;
-use Corcel\Acf\Field\Image;
-use Corcel\Acf\Field\Text;
+use Adapt\Acf\Field\File;
+use Adapt\Acf\Field\Gallery;
+use Adapt\Acf\Field\Image;
+use Adapt\Acf\Field\Text;
 use Corcel\Model\Post;
 
 /**

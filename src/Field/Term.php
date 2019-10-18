@@ -1,9 +1,9 @@
 <?php
 
-namespace Corcel\Acf\Field;
+namespace Adapt\Acf\Field;
 
-use Corcel\Acf\FieldInterface;
-use Corcel\Model\Post;
+use Adapt\Acf\FieldInterface;
+use App\Model\Post;
 use Illuminate\Support\Collection;
 
 /**
@@ -19,7 +19,7 @@ class Term extends BasicField implements FieldInterface
     protected $items;
 
     /**
-     * @var \Corcel\Model\Term
+     * @var \App\Model\Term
      */
     protected $term;
 
@@ -29,7 +29,7 @@ class Term extends BasicField implements FieldInterface
     public function __construct(Post $post)
     {
         parent::__construct($post);
-        $this->term = new \Corcel\Model\Term();
+        $this->term = new \App\Model\Term();
         $this->term->setConnection($post->getConnectionName());
     }
 

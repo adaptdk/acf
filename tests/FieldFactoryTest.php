@@ -1,6 +1,6 @@
 <?php
 
-use Corcel\Acf\FieldFactory;
+use Adapt\Acf\FieldFactory;
 use Corcel\Model\Post;
 
 /**

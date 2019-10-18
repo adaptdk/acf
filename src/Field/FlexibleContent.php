@@ -1,10 +1,10 @@
 <?php
 
-namespace Corcel\Acf\Field;
+namespace Adapt\Acf\Field;
 
-use Corcel\Acf\FieldFactory;
-use Corcel\Acf\FieldInterface;
-use Corcel\Model;
+use Adapt\Acf\FieldFactory;
+use Adapt\Acf\FieldInterface;
+use App\Model;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 

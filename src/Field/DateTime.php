@@ -1,10 +1,10 @@
 <?php
 
-namespace Corcel\Acf\Field;
+namespace Adapt\Acf\Field;
 
 use Carbon\Carbon;
-use Corcel\Acf\FieldInterface;
-use Corcel\Model\Post;
+use Adapt\Acf\FieldInterface;
+use App\Model\Post;
 
 /**
  * Class DateTime.

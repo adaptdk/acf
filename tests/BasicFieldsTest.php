@@ -1,6 +1,6 @@
 <?php
 
-use Corcel\Acf\Field\Text;
+use Adapt\Acf\Field\Text;
 use Corcel\Model\Post;
 
 /**

@@ -60,7 +60,7 @@ ACF has to make 2 (two) SQL queries to find out the field type, so according the
 
 First ACF fetches the `meta_value` in `wp_postmeta` table, where the `meta_key` is something like `_field_name` and the post ID is the ID of the post you want the custom field. The returned value is the `field key` and it looks like this `field_57f421a2b81bd`. With this key it fetches the corresponding post in `wp_posts`, where `post_name = 'field_57f421a2b81bd'`. With the results it gets the `post_content` value, a serialized array, deserialize it and gets the content on the `type` key. This is the field type. According it the ACF (and also this plugin) does the right thing.
 
-This plugin works with a basic logic inside `Corcel\Acf\Field\BasicField` abstract class, that has a lot of useful functions to return the `field key`, the `value`, etc. The `Corcel\Acf\FieldFactory` is responsible to return the correct field instance according the field type, so, if the field type is `post_object` it return an instance of `Corcel\Acf\Field\PostObject`, and it will returns in the `get()` method an instance of `Corcel\Post`.
+This plugin works with a basic logic inside `Adapt\Acf\Field\BasicField` abstract class, that has a lot of useful functions to return the `field key`, the `value`, etc. The `Adapt\Acf\FieldFactory` is responsible to return the correct field instance according the field type, so, if the field type is `post_object` it return an instance of `Adapt\Acf\Field\PostObject`, and it will returns in the `get()` method an instance of `Corcel\Post`.
 
 ## What is Missing
 
@@ -84,9 +84,9 @@ First we should create the fields classes and the test cases. After we have to s
 | Password          | ok        | [@jgrossi](http://github.com/jgrossi) | `string`  |
 | WYSIWYG (Editor)  | ok        | [@jgrossi](http://github.com/jgrossi) | `string`  |
 | oEmbed            | ok        | [@jgrossi](http://github.com/jgrossi) | `string`  |
-| Image             | ok        | [@jgrossi](http://github.com/jgrossi) | `Corcel\Acf\Field\Image` |
-| File              | ok        | [@jgrossi](http://github.com/jgrossi) | `Corcel\Acf\Field\File` |
-| Gallery           | ok        | [@jgrossi](http://github.com/jgrossi) | `Corcel\Acf\Field\Gallery` |
+| Image             | ok        | [@jgrossi](http://github.com/jgrossi) | `Adapt\Acf\Field\Image` |
+| File              | ok        | [@jgrossi](http://github.com/jgrossi) | `Adapt\Acf\Field\File` |
+| Gallery           | ok        | [@jgrossi](http://github.com/jgrossi) | `Adapt\Acf\Field\Gallery` |
 | Select            | ok        | [@jgrossi](http://github.com/jgrossi) | `string` or `array` |
 | Checkbox          | ok        | [@jgrossi](http://github.com/jgrossi) | `string` or `array` |
 | Radio             | ok        | [@jgrossi](http://github.com/jgrossi) | `string` |

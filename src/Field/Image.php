@@ -1,10 +1,10 @@
 <?php
 
-namespace Corcel\Acf\Field;
+namespace Adapt\Acf\Field;
 
-use Corcel\Model\Post;
-use Corcel\Model\Meta\PostMeta;
-use Corcel\Acf\FieldInterface;
+use App\Model\Post;
+use App\Model\Meta\PostMeta;
+use Adapt\Acf\FieldInterface;
 use Illuminate\Database\Eloquent\Collection;
 
 /**

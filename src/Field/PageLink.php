@@ -1,8 +1,8 @@
 <?php
 
-namespace Corcel\Acf\Field;
+namespace Adapt\Acf\Field;
 
-use Corcel\Acf\FieldInterface;
+use Adapt\Acf\FieldInterface;
 
 /**
  * Class PageLink.

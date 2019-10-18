@@ -1,7 +1,7 @@
 <?php
 
-use Corcel\Acf\Field\DateTime;
-use Corcel\Acf\Field\Text;
+use Adapt\Acf\Field\DateTime;
+use Adapt\Acf\Field\Text;
 use Corcel\Model\Post;
 
 class JqueryFieldsTests extends PHPUnit\Framework\TestCase
