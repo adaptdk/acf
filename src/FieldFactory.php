@@ -15,7 +15,7 @@
     use Adapt\Acf\Field\Term;
     use Adapt\Acf\Field\Text;
     use Adapt\Acf\Field\User;
-    use Corcel\Model;
+    use Illuminate\Database\Eloquent\Model;
     use Illuminate\Support\Collection;
 
     /**
