@@ -3,7 +3,7 @@
     namespace Adapt\Acf;
 
     use Adapt\Acf\Exception\MissingFieldNameException;
-    use Adapt\Model;
+    use Illuminate\Database\Eloquent\Model;
     use Illuminate\Support\Str;
 
     /**
